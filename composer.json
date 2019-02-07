@@ -1,0 +1,23 @@
+{
+    "name": "ferrl/launcher-rabbitmq",
+    "description": "Helpers for using RabbitMQ in Laravel",
+    "type": "library",
+    "require": {
+        "php": ">=7.1.3",
+        "illuminate/console": "5.7.*",
+        "illuminate/support": "5.7.*",
+        "php-amqplib/php-amqplib": "^2.8"
+    },
+    "autoload": {
+        "psr-0": {
+            "RabbitMQ": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lucas Ferreira",
+            "email": "me@ferrl.io"
+        }
+    ]
+}
